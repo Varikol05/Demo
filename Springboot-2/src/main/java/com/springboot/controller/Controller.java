@@ -13,9 +13,9 @@ public class Controller {
 	public String valid (@PathVariable String user,@PathVariable String pass)
 	{
 		if(u.userval(user, pass))
-			return "validuser";
+			return "valid";
 		else
-			return "invaliduser";
+			return "invalid";
 	}
 	
 	
