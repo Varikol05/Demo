@@ -13,9 +13,15 @@ public class Controller {
 	public String valid (@PathVariable String user,@PathVariable String pass)
 	{
 		if(u.userval(user, pass))
+ newbranch
 			return "validu";
 		else
 			return "invalidu";
+
+			return "valid ";
+		else
+			return "invalid ";
+ master
 	}
 	
 	
